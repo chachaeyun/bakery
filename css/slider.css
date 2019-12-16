@@ -1,0 +1,14 @@
+
+.slider {
+  position: relative;
+}
+.slider > img {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  /* 전환효과 */
+  transition-duration: 1s;
+}
+.slider > img.show {
+  opacity: 1;
+}
